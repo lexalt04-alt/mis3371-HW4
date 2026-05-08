@@ -1,1 +1,226 @@
+/*
+Author: Alex Nguyen
+File: homework4.css
+Date created: 05/3/2026
+Date last edited: 05/3/2026
+Version: 4.0
+Description: CSS for HW4
+*/
 
+header {
+    width: 100%;
+    font-family: "Rockwell", serif;
+    background-color: rgb(103, 121, 107);
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f4ff;
+    margin: 0;
+    min-height: 100vh; /*making sure the page is height of the viewport*/
+}
+
+form {
+    flex-grow: 1;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+main {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    flex-grow: 1;
+}
+
+.image {
+    text-align: left;
+}
+
+.td1 {
+    text-align: right;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
+
+th {
+    color: #786b9e;
+    text-align: center;
+    font-family: "Rockwell", serif;
+    
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(103, 121, 107);
+    height: 3.0rem;
+}
+
+#footer {
+    text-align: right;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+label {
+    text-align: right;
+    font-family: "optima", sans-serif;
+    font-weight: normal;   
+}
+
+input {
+    text-align: left;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
+
+textarea {
+    text-align: left;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
+
+#today {
+    text-align: left;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+    margin-right: 5px;
+}
+
+p {
+    text-align: center;
+    font-family: "optima", sans-serif;
+    font-weight: normal; 
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
+
+.pass-message {
+    text-align: right;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+    position: relative;
+    left: 100px;
+    background: transparent;
+    padding: 10px;
+    border-spacing: 2px;
+    border-radius: 20px;
+    color: red;
+}
+
+table.output,
+tr.output,
+td.output {
+    width: 500px;
+    background-color: rgb(151, 162, 255);
+    padding: 10px;
+    border-spacing: 2px;
+    border-radius: 20px;
+    color: black
+}
+
+td.outputdata {
+    width: 500px;
+    background-color: rgb(0, 132, 255);
+    padding: 10px;
+    border-spacing: 2px;
+}
+
+/* alert box styling */
+#alert-box {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: transparent;
+}
+
+#alert-content {
+    background-color: rgb(246, 246, 246);
+    border-radius: 10px;
+    width: 300px;
+    height: 130px;
+    margin: auto;
+    margin-top: 20%;
+    padding: 30px;
+    text-align: center;
+}
+
+#alert-content h4 {
+    font-size: 20px;
+    text-align: center;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
+
+#close-alert {
+    background-color: rgb(253, 253, 253);
+    border-width: 1px;
+    border-style: solid;
+    color: rgb(96, 112, 104);
+    border-color: rgb(96, 112, 104);
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+    width: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "optima", sans-serif;
+}
+
+/* Cookie welcome message */
+#welcome1 {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family:"Rockwell", sans-serif;
+    font-weight: normal;
+}
+
+#welcome2 {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family:"Rockwell", sans-serif;
+    font-weight: normal;
+}
+
+/*iframe styling*/
+.iframe-container {
+    position: absolute;
+    top: 25%;
+    right: 15px;
+    width: 25%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.iframe-container iframe {
+    width: 95%;
+    height: 20%;
+    border: 1px solid black
+}
+
+/* End of homework4.css document */
